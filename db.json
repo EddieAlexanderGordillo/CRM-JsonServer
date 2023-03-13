@@ -1,19 +1,11 @@
 {
-  "posts": [
+  "clientes": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "nombre": "Juan NUEVO!",
+      "email": "correo2@correo.com",
+      "telefono": "12",
+      "empresa": "12212",
+      "id": 26
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
