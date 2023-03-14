@@ -7,8 +7,6 @@
     --primaryHover: #2c7a7b;
     --borderFocus: #a0ccf0;
     --whiteBackground: #edf2f7;
-    --greenDark: #155724;
-    --greenLight: #28B62C;
     --redDark: #ff291d;
     --redLight: #FF4136;
 
@@ -221,19 +219,14 @@ body {
     border-radius: 5px;
 }
 
-.erroraleta {
+.alerta__error {
     color: var(--almostWhite);
     border: 1px solid var(--redDark);
     border-radius: 5px;
     background: var(--redLight);
 }
 
-.correctoalerta {
-    color: var(--almostWhite);
-    border: 1px solid var(--greenLight);
-    border-radius: 5px;
-    background-color: var(--greenLight);
-}
+
 
 @media (min-width: 820px) {
     .container {
